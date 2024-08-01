@@ -7,7 +7,7 @@ class House:
         self.name = name
         self.number_of_floors = number_of_floors
     def __del__(self):
-        return (f'{self.name} снесён, но он останется в истории')
+        return print(f'{self.name} снесён, но он останется в истории')
     def __str__(self):
         return (f'Название: {self.name}, кол-во этажей: {self.number_of_floors}')
 
